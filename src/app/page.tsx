@@ -8,6 +8,7 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 // ---- Page Principale ----
 
@@ -17,6 +18,7 @@ export default function Home() {
       {" "}
       {/* Conteneur principal pour gérer le thème dark/light si besoin */}
       {/* Un composant Header/Navbar irait bien ici si vous en avez un séparé */}
+      <Analytics />
       <SpeedInsights />
       <Hero />
       <About />
