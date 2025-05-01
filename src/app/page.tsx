@@ -17,6 +17,7 @@ export default function Home() {
       {" "}
       {/* Conteneur principal pour gérer le thème dark/light si besoin */}
       {/* Un composant Header/Navbar irait bien ici si vous en avez un séparé */}
+      <SpeedInsights />
       <Hero />
       <About />
       <Skills />
